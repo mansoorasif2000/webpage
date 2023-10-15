@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    gap: 50px;
+    padding: 50px 0;
+    height: 60vh;
+    /* background-color: #312727; */
+    
+
+}
+.top{
+    margin: auto;
+    padding: 0px 30px;
+    position: relative;
+    
+}
+.top h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+
+}
+.top h3{
+    max-width: 100%;
+    font-weight: 400;
+}
+.top button{
+    /* margin:  20px auto; */
+    display: block;
+    padding :8px 30px;
+    border-radius: 8px;
+    background-color: rgb(110, 168, 168);
+    color: white;
+    border: none;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.img img{
+    width:  19%;
+    position: absolute;
+    right: 160px;
+    top:   20px;
+
+}
+.sec{
+    border: 1px solid green;
+    background-image: url(WhatsApp\ Image\ 2023-10-10\ at\ 4.19.42\ PM.jpeg);
+    padding: 14%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    gap: 20px;
+}
+.sec {
+    text-align: center;
+}
+.sec p{
+    opacity: .8;
+}
+.no{
+    text-align: center;
+    font-size: 2rem;
+}
+.no-1{
+    text-align: center;
+}
+.center{
+    /* border: 1px solid black; */
+    padding: 10%;
+    text-transform: capitalize;
+}
+.center h1{
+    text-align: center;
+}
+.center  p{
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.center button{
+    margin:  20px auto;
+    display: block;
+    padding :8px 30px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.last{
+
+    background-image: url(WhatsApp\ Image\ 2023-10-10\ at\ 4.19.42\ PM.jpeg);
+    padding: 10%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.last .resp{
+    text-align: center;
+    margin: auto;
+    font-size: 2.1rem;
+    color: white;
+
+}
+.last p{
+
+    color: white;
+    text-align: center;
+    margin: 15px  auto;
+    max-width: 50%;
+    font-size: 14px;
+    font-family: monospace;
+    
+}
+.last-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.last-imgs .imgs{
+    border: dashed;
+    padding:80px 60px;
+    width: 40%;
+    color: white;
+    border-radius: 8px;
+}
+.last-imgs .imgs p{
+    font-size: 20px;
+    text-align: center;
+}
+.last .footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.end .techs{
+    color: white;
+}
+/* responsive */
+@media only screen and (max-width: 770px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .img img{
+        width:  25%;
+        position: absolute;
+        right: 120px;
+        top:   20px;
+    
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    /* body {
+      background-color: rgb(237, 174, 38);
+    } */
+    .img img{
+        width:  28%;
+        position: absolute;
+        right: 7%;
+        top:   40px;
+    
+    }
+    .top h1{
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 10px;
+        /* letter-spacing: 3px; */
+    }
+    .top h3{
+        max-width: 50%;
+        
+    }
+  }
+
+  @media only screen and (max-width: 544px) {
+    /* body{
+        background-color: rebeccapurple;
+    } */
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 90px;
+        gap: 60px;
+        /* padding: 50px 0; */
+        height: 30vh;
+        /* background-color: #312727; */
+        
+    
+    }
+    .top{
+        /* text-align: center; */
+        margin: 30px auto;
+        padding: 0px 40px;
+        position: relative;
+        width: 100%;
+        
+    }
+   
+    .top h1{
+       
+        font-size: 1.5rem;
+        
+        /* font-weight: 900; */
+        /* margin-bottom: 10px; */
+        /* letter-spacing: 3px; */
+    }
+    .top h3{
+        max-width: 90%;
+        /* text-align: justify; */
+        
+    }
+    .top button{
+        /* margin:  20px auto; */
+        display: block;
+        padding :8px 26px;
+        border-radius: 8px;
+        background-color: rgb(68, 166, 223);
+        color: white;
+        border: none;
+        font-size: 19px;
+        /* margin-top: 10px; */
+    
+    }
+    .img img{
+        width:  30%;
+        position: absolute;
+        right: 2%;
+        top: 110px;
+    
+    }
+
+    .sec{
+        /* border: 1px solid green; */
+        background-image: url(WhatsApp\ Image\ 2023-10-10\ at\ 4.19.42\ PM.jpeg);
+        padding: 14%;
+        /* display: flex;
+        justify-content: space-evenly; */
+        flex-direction: column;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        gap: 12px;
+    }
+    .sec {
+        text-align: center;
+    }
+    .no{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .no-1{
+        text-align: center;
+    }
+    .sec p{
+        text-align: center;
+        opacity: .8;
+    }
+
+    .center{
+        /* border: 1px solid black; */
+        padding: 8%;
+        text-transform: capitalize;
+    }
+    .center h1{
+        text-align: center;
+        margin-top:20px ;
+    }
+    .center  p{
+        max-width: 100%;
+        text-align:center;
+        margin: 20px auto;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    /* .center button{
+        margin:  20px auto;
+        display: block;
+        padding :8px 30px;
+        border-radius: 8px;
+        background-color: aqua;
+        color: white;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+    
+    } */
+ 
+    .last{
+
+        background-image: url(WhatsApp\ Image\ 2023-10-10\ at\ 4.19.42\ PM.jpeg);
+        padding: 10%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .last .resp{
+        text-align: center;
+        margin: auto;
+        font-size: 1.7em;
+        color: white;
+    
+    }
+    .last p{
+    
+        color: white;
+        text-align: center;
+        margin: 15px  auto;
+        max-width: 100%;
+        font-size: 14px;
+        font-family: monospace;
+        
+    }
+    .last-imgs{
+        /* display: block; */
+        flex-direction:column ;
+
+        justify-content: center;
+        /* gap: 40px; */
+        margin-top: 20px;
+    }
+    .last-imgs .imgs{
+        border: dashed;
+        padding:80px 60px;
+        width: 100%;
+        color: white;
+        border-radius: 8px;
+    }
+    /* .last-imgs .imgs p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .last .footer{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .end .techs{
+        color: white;
+    }
+} */
+.last .footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+  }
